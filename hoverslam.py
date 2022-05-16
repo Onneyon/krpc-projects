@@ -3,6 +3,8 @@ import krpc
 import sys
 import math
 
+# WIP - barrel rolls to flatten phugoid + circularisation NYI
+
 try:
 	conn = krpc.connect(address="localhost", name='Perform hoverslam')
 	vessel = conn.space_center.active_vessel
